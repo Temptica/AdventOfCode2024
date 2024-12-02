@@ -18,7 +18,6 @@ else
     int.TryParse(input, out day);
 }
 
-//get the Class inhereting from IAdventure with Day and then the number from the input behind it
 var adventure = Assembly
     .GetExecutingAssembly()
     .GetTypes()
