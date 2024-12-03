@@ -4,7 +4,7 @@ public class Day1 : IAdventure
 {
     public void Run()
     {
-        var input = File.ReadAllLines(StaticProps.Path+"Day1/Day1.txt");
+        var input = InputReader.Read(this);
         var leftList = new List<int>();
         var rightList = new List<int>();
         foreach (var line in input)

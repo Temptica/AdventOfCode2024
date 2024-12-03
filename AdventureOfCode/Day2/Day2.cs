@@ -4,7 +4,7 @@ public class Day2 : IAdventure
 {
     public void Run()
     {
-        var input = File.ReadAllLines(StaticProps.Path + "Day2/Day2.txt");
+        var input = InputReader.Read(this);
 
         Part1(input);
     }
