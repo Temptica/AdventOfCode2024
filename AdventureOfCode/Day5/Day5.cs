@@ -131,7 +131,6 @@ public partial class Day5 : IAdventure
         pageOrder.Add(page);
     }
 
-
     public class Page
     {
         public Page(int number)
